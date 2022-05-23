@@ -17,27 +17,27 @@ import AccountOutline from 'mdi-material-ui/AccountOutline'
 
 const salesData = [
   {
-    stats: '245k',
-    title: 'Sales',
+    stats: '$2,876.90',
+    title: 'Ether Price',
     color: 'primary',
     icon: <TrendingUp sx={{ fontSize: '1.75rem' }} />
   },
   {
-    stats: '12.5k',
-    title: 'Customers',
+    stats: '1,550.63',
+    title: 'Transactions',
     color: 'success',
     icon: <AccountOutline sx={{ fontSize: '1.75rem' }} />
   },
   {
-    stats: '1.54k',
+    stats: '13,568.94 TH',
     color: 'warning',
-    title: 'Products',
+    title: 'Difficulty',
     icon: <CellphoneLink sx={{ fontSize: '1.75rem' }} />
   },
   {
-    stats: '$88k',
+    stats: '$342,073,958,132.00',
     color: 'info',
-    title: 'Revenue',
+    title: 'Market Cap',
     icon: <CurrencyUsd sx={{ fontSize: '1.75rem' }} />
   }
 ]
